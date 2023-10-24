@@ -26,6 +26,11 @@ body {
   --testing-background-color: #14131a;
 }
 
+
+/* ::-webkit-scrollbar {
+    display: none;
+}  */
+
 hr {
   width: 100%;
 }
@@ -137,6 +142,17 @@ i {
   position: fixed;
   top: 0;
   width: 100%;
+  animation: comingFromTop 0.3s ease forwards;
+}
+
+
+@keyframes comingFromTop {
+    0% {
+        transform: translateY(-130%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .drop-down-nav {

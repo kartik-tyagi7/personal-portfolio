@@ -25,7 +25,7 @@ const Project = () => {
         <div className="cards-area flex flex-wrap justify-around gap-10 py-4">
           {projects.map((item) => (
             <div
-              className="project-card flex-1  rounded-lg p-5 shadow-3xl w-[448px] max-w-md min-w-[330px] "
+              className="project-card flex-1 rounded-lg p-5 shadow-3xl w-[448px] max-w-md min-w-[330px] "
               data-aos="fade-up"
               data-aos-easing="ease-out"
             >
