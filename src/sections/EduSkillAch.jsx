@@ -66,7 +66,7 @@ const Eduskillach = () => {
   }, []);
 
   return (
-    <section id="eduskillach-section" className="eduskillach-section padding">
+    <section id="eduskillach-section" className="eduskillach-section padding mb-10">
       <div className="max-container">
         <div className="two-row flex">
           <div className="max-md:hidden eduskillach-left-column h-full sticky top-[170px] py-0 px-4 flex-shrink-0 flex-grow-0 w-[25%]">

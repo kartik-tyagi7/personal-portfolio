@@ -36,7 +36,7 @@ export const aboutMeLinks = [
     label: "Email:",
     value: "kartiktyagi905@gmail.com",
   },
-  { href: "", label: "Phone:", value: "+91 914935XXXX" },
+  { href: "", label: "Phone:", value: "+91 9149356161" },
 ];
 
 // export const sideNav = [
@@ -216,7 +216,7 @@ export const contactMe = [
     iconClass: "fa-solid fa-phone fa-2xl",
     heading: "CALL ME",
     href: "",
-    p: "+91 914935XXXX",
+    p: "+91 9149356161",
   },
 ];
 
@@ -276,7 +276,7 @@ export const footerLinks = [
         name: "kartiktyagi905@gmail.com",
         link: "mailto:kartiktyagi905@gmail.com",
       },
-      { name: "+91 914935XXXX", link: "tel:+91914935XXXX" },
+      { name: "+91 9149356161", link: "tel:+91914935XXXX" },
     ],
   },
 ];

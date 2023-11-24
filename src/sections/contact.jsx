@@ -17,7 +17,7 @@ const Contact = () => {
             Contact Me
           </h1>
         </div>
-        <div className="contact-area flex justify-between max-md:flex-col">
+        <div className="contact-area flex justify-center max-md:flex-col">
           <div
             className="left-contact-area w-[40%] max-md:m-auto  max-md:w-[70%] max-sm:w-full max-md:pb-20"
             data-aos="fade-up"
@@ -90,7 +90,7 @@ const Contact = () => {
             </div> */}
           </div>
 
-          <div
+          {/* <div
             className="right-contact-area w-[40%] flex justify-center items-center shadow-3xl rounded-lg max-md:m-auto max-md:w-[70%] max-sm:w-full "
             data-aos="fade-up"
             data-aos-easing="ease-out"
@@ -115,48 +115,6 @@ const Contact = () => {
                   </p>
                 ))}
 
-                {/* <p>
-                  <label for="fullname">Full Name</label>
-                  <input
-                    type="text"
-                    id="fullname"
-                    placeholder="Enter name here"
-                    required
-                    className=""
-                  ></input>
-                </p> */}
-
-                {/* <p>
-                  <label for="email">Your Email</label>
-                  <input
-                    type="email"
-                    id="email"
-                    placeholder="Enter your email here"
-                    required
-                    className=""
-                  ></input>
-                </p> */}
-
-                {/* <p>
-                  <label for="phone">Enter your phone number:</label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    placeholder="Enter no. here"
-                    required
-                  ></input>
-                </p> */}
-
-                {/* <p>
-                  <label for="message">Your Message</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows="4"
-                    cols="57"
-                  ></textarea>
-                </p> */}
-
                 <p className="pt-5">
                   <input
                     type="submit"
@@ -167,7 +125,7 @@ const Contact = () => {
                 </p>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

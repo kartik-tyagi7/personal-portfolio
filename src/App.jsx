@@ -32,15 +32,15 @@ function App() {
       {/* <Education />
       <Skill/>
       <Achievement /> */}
+      <hr></hr>
+      <section className="">
+        <Project />
+      </section>
 
       <section className="bg-slate-100">
         <Service />
       </section>
 
-      {/* <hr></hr> */}
-      <section className="">
-        <Project />
-      </section>
 
       <secton className="">
         <Contact />

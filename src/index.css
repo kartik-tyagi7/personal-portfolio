@@ -125,16 +125,17 @@ i {
   transform: scaleX(1);
 }
 
-#nav {
+.nav {
   transform: scale(1);
   transform-origin: top;
   /* transition: 0.5s ease; */
   background: rgba(255, 255, 255, 0);
+  /* background-color: var(--primary-color); */
   z-index: 1000;
 }
 
 .stickyy {
-  background-color: #000000;
+  /* background-color: #000000; */
   box-shadow: 0px 2px 7px #d1d1d1;
   transform: scaleY(1);
   backdrop-filter: blur(10px);
@@ -161,13 +162,15 @@ i {
 
 .visible {
   display: flex;
-  background-color: #00000062;
-  border-radius: 20px;
-  /* color: #fff; */
+  background-color: #00000063;
+  background-color: var(--primary-color);
+
+  border-radius: 10px;
+  color: #fff;
 }
 
 .dark-bg{
-
+  animation: comingFromTop 0.3s ease forwards;
 }
 
 @media (min-width: 768px) {
