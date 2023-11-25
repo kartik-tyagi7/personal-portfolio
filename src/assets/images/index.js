@@ -13,9 +13,10 @@ import python from "./python.svg";
 import c from "./c.svg";
 import footerLogo from "./footer-logo.svg";
 import nike from "./Nike.png";
-import portfolio from "./portfolio.png";
+import portfolio from "./personalPortfolio.png";
 import passwordgenerator from "./PasswordGenerator.png";
 import codequest from "./CodeQuestApp.png";
+import movix from "./Movix.png"
 
 export {
   headerLogo,
@@ -36,4 +37,5 @@ export {
   portfolio,
   codequest,
   passwordgenerator,
+  movix
 };

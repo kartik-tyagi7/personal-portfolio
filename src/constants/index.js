@@ -17,6 +17,7 @@ import {
   python,
   react,
   tailwind,
+  movix
 } from "../assets/images";
 
 export const navLinks = [
@@ -168,10 +169,17 @@ export const services = [
 
 export const projects = [
   {
+    projectName: "Movie Database App (Movix)",
+    desc: "A React-based Movie Database App. Data is fetched from The Movie Database API. Watch trailers, search and sort based on different parameters.",
+    teckStack: "HTML, CSS, javascript, React, Redux, React Router, Talwind CSS",
+    url: "https://movix-chi-five.vercel.app/",
+    coverPhoto: movix,
+  },
+  {
     projectName: "Personal Protfolio Website",
     desc: "Discover my digital canvas, where I showcase my web development journey.",
-    teckStack: "HTML, CSS, javascript React, Talwind CSS, Bootstrap",
-    url: "",
+    teckStack: "HTML, CSS, javascript, React, Talwind CSS, Bootstrap",
+    url: "https://kartik-tyagi-rho-puce.vercel.app/",
     coverPhoto: portfolio,
   },
   {
