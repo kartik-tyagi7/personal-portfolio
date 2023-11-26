@@ -332,3 +332,14 @@ i {
 .service-card:hover #webdev {
   stroke: red; /* Change the outline color on hover */
 }
+
+
+
+
+
+/* footer */
+
+.socialmedia:hover {
+  box-shadow: 0 0 8px 1px  var(--secondary-color);
+
+}

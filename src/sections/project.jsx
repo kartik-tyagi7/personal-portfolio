@@ -1,6 +1,8 @@
 import React from "react";
 import { projects } from "../constants";
 import { githubLogo } from "../assets/icon";
+import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Project = () => {
   return (
@@ -25,7 +27,7 @@ const Project = () => {
         <div className="cards-area flex flex-wrap justify-around gap-10 py-4">
           {projects.map((item) => (
             <div
-              className="project-card flex-1 rounded-lg p-5 shadow-3xl w-[448px] max-w-md min-w-[330px] "
+              className="project-card flex-1 rounded-lg p-5 shadow-3xl w-[448px] max-w-md min-w-[330px] relative"
               data-aos="fade-up"
               data-aos-easing="ease-out"
             >
@@ -39,16 +41,29 @@ const Project = () => {
                 />
               </a>
 
-              <div className="py-5 ">
+              <div className="my-5 ">
                 <a href={item.url} target="_blank">
                   <h3 className="text-xl max-sm:text-lg font-bold font-poppins text-primary">
                     {item.projectName}
                   </h3>
                 </a>
                 <p className="text-md pt-2">{item.teckStack}</p>
-                <p className="text-sm text-secondary font-montserrat pt-4">
+                <p className="text-sm text-secondary font-montserrat  pt-3 pb-6">
                   {item.desc}
                 </p>
+              </div>
+
+              <div className="links flex gap-5 absolute bottom-4">
+                {item.githubRepo && (
+                  <a href={item.githubRepo} target="_blank">
+                    <FaGithub size={25} color="#003049" />
+                  </a>
+                )}
+                {item.url && (
+                  <a href={item.url} target="_blank">
+                    <FaExternalLinkAlt size={23} color="#003049" />
+                  </a>
+                )}
               </div>
             </div>
           ))}

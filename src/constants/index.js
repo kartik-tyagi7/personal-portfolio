@@ -1,4 +1,15 @@
-import { twitterLogo, facebookLogo, instagramLogo, linkdinLogo, githubLogo } from "../assets/icon";
+import {
+  twitterLogo,
+  facebookLogo,
+  instagramLogo,
+  linkdinLogo,
+  githubLogo,
+} from "../assets/icon";
+
+import { IoLogoLinkedin } from "react-icons/io5";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 import {
   aws,
@@ -17,7 +28,7 @@ import {
   python,
   react,
   tailwind,
-  movix
+  movix,
 } from "../assets/images";
 
 export const navLinks = [
@@ -166,13 +177,13 @@ export const services = [
   // },
 ];
 
-
 export const projects = [
   {
     projectName: "Movie Database App (Movix)",
     desc: "A React-based Movie Database App. Data is fetched from The Movie Database API. Watch trailers, search and sort based on different parameters.",
     teckStack: "HTML, CSS, javascript, React, Redux, React Router, Talwind CSS",
     url: "https://movix-chi-five.vercel.app/",
+    githubRepo: "https://github.com/kartik-tyagi7/movie-app-Movix-",
     coverPhoto: movix,
   },
   {
@@ -180,6 +191,7 @@ export const projects = [
     desc: "Discover my digital canvas, where I showcase my web development journey.",
     teckStack: "HTML, CSS, javascript, React, Talwind CSS, Bootstrap",
     url: "https://kartik-tyagi-rho-puce.vercel.app/",
+    githubRepo: "https://github.com/kartik-tyagi7/personal-portfolio",
     coverPhoto: portfolio,
   },
   {
@@ -188,13 +200,14 @@ export const projects = [
     teckStack: "HTML, CSS, javascript React, Talwind CSS, Bootstrap",
     url: "https://codequest-app.vercel.app/",
     coverPhoto: codequest,
-    github: "https://github.com/kartik-tyagi7/CodeQuest-App",
+    githubRepo: "https://github.com/kartik-tyagi7/CodeQuest-App",
   },
   {
     projectName: "Nike Landing Page",
     desc: "Discover stylish Nike arrivals, quality comfort, and innovation for your active life.",
     teckStack: "HTML, CSS, javascript React, Talwind CSS",
     url: "",
+    githubRepo: "",
     coverPhoto: nike,
   },
   {
@@ -203,7 +216,7 @@ export const projects = [
     teckStack: "HTML, CSS, javascript",
     url: "https://password-generator-self-nine.vercel.app/",
     coverPhoto: passwordgenerator,
-    github: "https://github.com/kartik-tyagi7/Password_generator",
+    githubRepo: "https://github.com/kartik-tyagi7/Password_generator",
   },
 ];
 
@@ -292,16 +305,19 @@ export const footerLinks = [
 export const socialMedia = [
   {
     src: linkdinLogo,
+    // logo: <IoLogoLinkedin />,
     alt: "linkdin",
     href: "https://www.linkedin.com/in/kartik-tyagi7/",
   },
   {
     src: twitterLogo,
+    // logo: <FaSquareXTwitter />, 
     alt: "twitter logo",
     href: "https://twitter.com/kartik_tyagi_7",
   },
   {
     src: githubLogo,
+    // logo: <FaGithub />,
     alt: "github logo",
     href: "https://github.com/kartik-tyagi7",
   },

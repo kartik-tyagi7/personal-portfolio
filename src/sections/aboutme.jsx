@@ -63,7 +63,7 @@ const Aboutme = () => {
 
           <div className="pt-7">
             <a
-              href="/Kartik's Resume (11).pdf"
+              href="/Kartik's Resume (12).pdf"
               className="primary-btn download-resume-btn"
               download="resume_pdf"
             >

@@ -71,12 +71,12 @@ const Navbar = () => {
         id="drop-down-nav"
         className={`drop-down-nav ${mobileMenu ? "visible" : ""} mt-2`}
       >
-        <ul className="flex flex-col justify-center flex-wrap p-5">
+        <ul className="flex flex-col justify-center flex-wrap px-4 py-1">
           {navLinks.map((link) => (
             <li key={link.label} className="nav-links-items">
               <a
                 href={link.href}
-                className="font-semibold font-montserrat"
+                className="font-semibold font-montserrat text-sm"
               >
                 {link.label}
               </a>

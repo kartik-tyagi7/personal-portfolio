@@ -1,6 +1,12 @@
+import React from "react";
 import { copyrightSign } from "../assets/icon";
 import { footerLogo, headerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
+
+import { IoLogoLinkedin } from "react-icons/io5";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -16,9 +22,10 @@ const Footer = () => {
             professional journey and projects.
           </p>
           <div className="flex items-center gap-5 mt-8">
-            {socialMedia.map((icon) => (
-              <a href={icon.href} target="_blank">
-                <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full">
+            {socialMedia.map((icon, index) => (
+              <a key={index} href={icon.href} target="_blank">
+                <div className=" socialmedia flex justify-center items-center w-12 h-12 bg-white rounded-full transition-all duration-200 ease-in-out">
+                  {/* {icon.logo} */}
                   <img src={icon.src} alt={icon.alt} width={24} height={24} />
                 </div>
               </a>
